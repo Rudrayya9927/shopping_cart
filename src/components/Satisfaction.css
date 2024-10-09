@@ -1,0 +1,59 @@
+/* src/Components/CustomerSatisfaction.css */
+
+.customer-satisfaction {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.customer-satisfaction h2 {
+  font-size: 2em;
+  color: #000000; /* Matching the orange color */
+  margin-bottom: 10px;
+}
+
+.customer-satisfaction p {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.satisfaction-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.satisfaction-item {
+  text-align: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.satisfaction-item img {
+  width: 60px; /* Size of the icons */
+  margin-bottom: 20px;
+}
+
+.satisfaction-item h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.satisfaction-item p {
+  font-size: 1em;
+  color: #777;
+}
+
+/* Responsive for mobile screens */
+@media (max-width: 768px) {
+  .satisfaction-grid {
+    flex-direction: column;
+  }
+
+  .satisfaction-item {
+    margin-bottom: 20px;
+  }
+}

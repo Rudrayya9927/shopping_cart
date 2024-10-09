@@ -1,0 +1,81 @@
+/* src/Components/EssentialCollection.css */
+
+.essential-collection {
+  padding: 100px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.essential-collection h2 {
+  font-size: 2.5em;
+  color: #f0643c; /* Orange color for the title */
+  margin-bottom: 20px;
+}
+
+.essential-collection p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.collection-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.collection-card1 {
+  width: 22%;
+  height: 250px;
+  background-image: url("../images/simple.png");
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  object-fit: contain;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.collection-card2 {
+  width: 22%;
+  height: 250px;
+  background-image: url("../images/essential1.png");
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  object-fit: cover;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.collection-card3 {
+  width: 22%;
+  height: 250px;
+  background-image: url("../images/essential2.png");
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  object-fit: cover;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* Responsive for mobile screens */
+@media (max-width: 768px) {
+  .collection-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collection-card {
+    width: 80%;
+  }
+}
